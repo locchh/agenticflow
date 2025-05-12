@@ -25,24 +25,8 @@ This enables the development of flexible, extensible, and trainable agent-based 
 | **Dynamic agent workflows as graphs**                    | LangGraph, AutoGen, CrewAI         | Similar in enabling DAG-based agent behavior.                 |
 | **Context/Step as OOP-like unit (input, tools, output)** | LangChain Runnable, LangGraph Node | Aligns with LangChain’s modular `Runnable` abstraction.       |
 | **Workflow built via UI and executed by model**          | MetaGPT, SuperAGI, Smol-dev        | Indirect overlap; UI-based orchestration is rare.             |
-| **Strategy-based traversal (DFS, MCTS, etc.)**           | Agent-Q                            | Original idea; not found in other agent frameworks.           |
+| **Strategy-based traversal (DFS, MCTS, etc.)**           | Agent-Q                            |                                                               |
 | **Training strategy models**                             | Unity ML-Agents (in robotics)      | LLM frameworks don’t typically include trainable planners.    |
-
----
-
-## 🧠 What Makes AgenticFlow Unique
-
-1. **Graph Traversal as a Reasoning Strategy**  
-   Workflows are searched using symbolic algorithms (DFS, BFS, MCTS), enabling adaptive and optimal decision-making.
-
-2. **Trainable Planner / Strategy Selector**  
-   The system can learn which traversal strategy fits a given workflow, blending classical search with ML or RL policy optimization.
-
-3. **Visual Builder to Runtime Execution Flow**  
-   A full-stack connection from a visual workflow designer to an action model that interprets and executes plans dynamically.
-
-4. **Modular Step Architecture**  
-   Each step is encapsulated like a class with inputs, prompts, tools, and outputs — making the system reusable and composable.
 
 ---
 
@@ -101,4 +85,4 @@ This enables the development of flexible, extensible, and trainable agent-based 
   A lightweight framework for composing and executing LLM agent pipelines using modular, composable components.
 
 - **AgentQ**
-  [agent-q](https://github.com/sentient-engineering/agent-q)
+  [https://github.com/sentient-engineering/agent-q](https://github.com/sentient-engineering/agent-q)
