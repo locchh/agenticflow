@@ -25,7 +25,7 @@ This enables the development of flexible, extensible, and trainable agent-based 
 | **Dynamic agent workflows as graphs**                    | LangGraph, AutoGen, CrewAI         | Similar in enabling DAG-based agent behavior.                 |
 | **Context/Step as OOP-like unit (input, tools, output)** | LangChain Runnable, LangGraph Node | Aligns with LangChain’s modular `Runnable` abstraction.       |
 | **Workflow built via UI and executed by model**          | MetaGPT, SuperAGI, Smol-dev        | Indirect overlap; UI-based orchestration is rare.             |
-| **Strategy-based traversal (DFS, MCTS, etc.)**           | None                               | Original idea; not found in other agent frameworks.           |
+| **Strategy-based traversal (DFS, MCTS, etc.)**           | Agent-Q                            | Original idea; not found in other agent frameworks.           |
 | **Training strategy models**                             | Unity ML-Agents (in robotics)      | LLM frameworks don’t typically include trainable planners.    |
 
 ---
@@ -99,3 +99,6 @@ This enables the development of flexible, extensible, and trainable agent-based 
 - **AgentFlow**  
   [https://github.com/simonmesmith/agentflow](https://github.com/simonmesmith/agentflow)  
   A lightweight framework for composing and executing LLM agent pipelines using modular, composable components.
+
+- **AgentQ**
+  [agent-q](https://github.com/sentient-engineering/agent-q)
