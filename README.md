@@ -6,7 +6,13 @@
 
 **AgenticFlow** is a strategic AI agent framework capable of executing complex workflows using both symbolic and learned planning techniques.
 
-The system is built around dynamic workflows, where each step (or context) acts as a modular, object-oriented unit. These steps connect into graph-like structures that define the agent's reasoning and execution path.
+* A **dynamic agent workflow** enables flexible decision-making.
+* Each **context or step** behaves like an object in OOP, with defined **inputs, prompts, tools, and outputs**.
+* A **workflow** is structured as a **chain, tree, or graph** of these contexts or steps.
+* The **LLM** receives user requests and routes them to the **action model**.
+* A **builder interface** allows users to design specific workflow applications via a UI, which are then passed to the action model.
+* The **action model** uses the provided request and workflow to determine the optimal response using strategic planning methods—such as **Depth-First Search**, **Breadth-First Search**, **Monte Carlo Tree Search**, or other appropriate algorithms.
+* These strategies can be **trained into the model** to improve performance over time.
 
 ### Key Features
 
