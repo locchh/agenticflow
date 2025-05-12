@@ -14,13 +14,6 @@
 * The **action model** uses the provided request and workflow to determine the optimal response using strategic planning methods—such as **Depth-First Search**, **Breadth-First Search**, **Monte Carlo Tree Search**, or other appropriate algorithms.
 * These strategies can be **trained into the model** to improve performance over time.
 
-### Key Features
-
-- A modular, graph-based execution engine.
-- An intelligent **action model** that selects the best traversal strategy (e.g., DFS, BFS, MCTS).
-- A **Builder UI** for visually constructing agent workflows.
-- Support for **training models** to dynamically select or blend traversal strategies based on context.
-
 This enables the development of flexible, extensible, and trainable agent-based applications with robust planning and reasoning capabilities.
 
 ---
