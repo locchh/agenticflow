@@ -264,3 +264,6 @@ This will generate a visual representation of your workflow, showing all context
 
 - **AgentQ**
   [https://github.com/sentient-engineering/agent-q](https://github.com/sentient-engineering/agent-q)
+
+- **LangFlow**
+  [https://github.com/langflow-ai/langflow](https://github.com/langflow-ai/langflow)
